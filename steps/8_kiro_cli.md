@@ -266,4 +266,17 @@ The Kiro CLI isn't a secondary tool — it's a first-class development experienc
 
 ## What's Next
 
-We've used Kiro interactively — in the IDE and now in the terminal. In the next step, we'll remove the human from the loop entirely with **headless mode**, running Kiro in CI/CD pipelines to automate code reviews, test generation, and build troubleshooting.
+That's a wrap. We've covered the full Kiro platform — from scaffolding a game with a picture, to structured specs, skills, steering, hooks, powers, MCP testing, and now the CLI. All on the free tier.
+
+| Step | Feature              | What we did                                                           |
+| ---- | -------------------- | --------------------------------------------------------------------- |
+| 1    | **IDE + Vibe mode**  | Toured Kiro, scaffolded the game from a picture                       |
+| 2    | **Specs**            | Added a backend with structured requirements → design → tasks         |
+| 3    | **Skills**           | Installed frontend-design and React best practices skills             |
+| 4    | **Steering**         | Taught Kiro our project conventions                                   |
+| 5    | **Hooks**            | Automated build checks, accessibility reviews, post-task verification |
+| 6    | **Powers**           | Extended Kiro with external service integrations                      |
+| 7    | **MCP + Playwright** | Configured raw MCP, tested the game in a real browser                 |
+| 8    | **Kiro CLI**         | Full agent experience in the terminal                                 |
+
+From a picture of a tic-tac-toe board to a full-stack, tested, deployable application — built with an audience driving the decisions. That's Kiro. 🎮
