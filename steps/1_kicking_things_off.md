@@ -74,7 +74,7 @@ Right now, this project folder has almost nothing in it, just these guides.
 Find or create an image of what you want to build. This could be a screenshot, a sketch on paper that you photograph, a wireframe, or any visual reference.Try tic-tac-toe for your first try. Take a look at the image. It shows a tic-tac-toe game UI — a 3×3 grid, X and O markers, a status display showing whose turn it is, and a reset button.
 
 
-![Vibe Spec](../Replate_with_your_game_image\Demo_tic_tac_toe.png)
+![Vibe Spec](../Replace_with_your_game_image\Demo_tic_tac_toe.png)
 
 The image is your entire specification for this step, drag it into Kiro's chat and ask it to build what it sees.
 ---
