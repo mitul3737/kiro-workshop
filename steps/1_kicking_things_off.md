@@ -27,7 +27,13 @@ Press `Cmd+L` (Mac) or `Ctrl+L` (Windows/Linux) to open the chat panel. This is 
 At the top of the chat, note two controls:
 
 1. **Session type picker** — Choose between **Vibe** (freeform) and **Spec** (structured) sessions.
+
+![Vibe Spec](../Images/Vibe_Spec.png)
+
+
 2. **Model picker** — Choose which AI model to use. **Auto** is the default and recommended.
+
+![Vibe Spec](../Images/Model.png)
 
 ### Switching Models
 
@@ -52,8 +58,10 @@ We'll switch to Spec mode later when we want more structure. For now, Vibe is pe
 
 Notice the **Autopilot toggle** in the chat panel. It has two modes:
 
+![Vibe Spec](../Images/Autopilot.png)
+
 - **Autopilot** (default): Kiro works autonomously. It creates files, writes code, runs commands, and makes decisions without asking permission at every step. You can always view changes, revert, or interrupt.
-- **Supervised** : Kiro pauses after each set of file edits and shows you the changes as individual "hunks." You accept, reject, or discuss each one before it continues.
+- **Supervised** (Toggle off) : Kiro pauses after each set of file edits and shows you the changes as individual "hunks." You accept, reject, or discuss each one before it continues.
 
 For scaffolding, make sure **Autopilot** is on. You'll use Supervised later when reviewing changes carefully.
 
@@ -64,6 +72,9 @@ For scaffolding, make sure **Autopilot** is on. You'll use Supervised later when
 Right now, this project folder has almost nothing in it, just these guides.
 
 Find or create an image of what you want to build. This could be a screenshot, a sketch on paper that you photograph, a wireframe, or any visual reference.Try tic-tac-toe for your first try. Take a look at the image. It shows a tic-tac-toe game UI — a 3×3 grid, X and O markers, a status display showing whose turn it is, and a reset button.
+
+
+![Vibe Spec](../Replate_with_your_game_image\Demo_tic_tac_toe.png)
 
 The image is your entire specification for this step, drag it into Kiro's chat and ask it to build what it sees.
 ---
@@ -81,6 +92,8 @@ The image is your entire specification for this step, drag it into Kiro's chat a
    Include the game logic — detecting wins, draws, and alternating turns between X and O.
    Add a reset button to start a new game.
    ```
+![Vibe Spec](../Images\first_prompt.png)
+
 
 5. Press Enter and watch Kiro work.
 
@@ -89,6 +102,9 @@ The image is your entire specification for this step, drag it into Kiro's chat a
 Kiro will:
 
 - Scaffold a Vite + React + TypeScript project (`npm create vite@latest`)
+
+![Vibe Spec](../Images\vite_project.png)
+
 - Create the game board component with a 3×3 grid
 - Implement game logic (win detection, turn alternation, draw detection)
 - Add a status display and reset button
@@ -116,6 +132,8 @@ Kiro can also run dev servers in the background without blocking the chat. If Ki
 
 Open the URL in your browser (usually `http://localhost:5173`) and play a game. Click cells, watch turns alternate, see the win/draw detection work, and hit reset.
 
+![Vibe Spec](../Images\First_demo.png)
+
 ### If something's off
 
 Tell Kiro in the chat. For example:
@@ -131,6 +149,10 @@ The win detection isn't working for diagonal wins. Fix it.
 ```
 
 Kiro reads the existing code, understands the issue, and fixes it. This is the conversational loop of Vibe mode — describe, build, iterate.
+
+![Vibe Spec](../Images\issue.png)
+![Vibe Spec](../Images\solved_t.png)
+![Vibe Spec](../Images\solved.png)
 
 ---
 
