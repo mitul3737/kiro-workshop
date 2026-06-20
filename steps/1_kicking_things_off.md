@@ -74,7 +74,7 @@ Right now, this project folder has almost nothing in it, just these guides.
 Find or create an image of what you want to build. This could be a screenshot, a sketch on paper that you photograph, a wireframe, or any visual reference.Try tic-tac-toe for your first try. Take a look at the image. It shows a tic-tac-toe game UI — a 3×3 grid, X and O markers, a status display showing whose turn it is, and a reset button.
 
 
-![Vibe Spec](../Replace_with_your_game_image\Demo_tic_tac_toe.png)
+![Vibe Spec](../Replace_with_your_game_image/Demo_tic_tac_toe.png)
 
 The image is your entire specification for this step, drag it into Kiro's chat and ask it to build what it sees.
 ---
@@ -92,7 +92,7 @@ The image is your entire specification for this step, drag it into Kiro's chat a
    Include the game logic — detecting wins, draws, and alternating turns between X and O.
    Add a reset button to start a new game.
    ```
-![Vibe Spec](../Images\first_prompt.png)
+![Vibe Spec](../Images/first_prompt.png)
 
 
 5. Press Enter and watch Kiro work.
@@ -103,7 +103,7 @@ Kiro will:
 
 - Scaffold a Vite + React + TypeScript project (`npm create vite@latest`)
 
-![Vibe Spec](../Images\vite_project.png)
+![Vibe Spec](../Images/vite_project.png)
 
 - Create the game board component with a 3×3 grid
 - Implement game logic (win detection, turn alternation, draw detection)
@@ -132,7 +132,7 @@ Kiro can also run dev servers in the background without blocking the chat. If Ki
 
 Open the URL in your browser (usually `http://localhost:5173`) and play a game. Click cells, watch turns alternate, see the win/draw detection work, and hit reset.
 
-![Vibe Spec](../Images\First_demo.png)
+![Vibe Spec](../Images/First_demo.png)
 
 ### If something's off
 
@@ -150,9 +150,9 @@ The win detection isn't working for diagonal wins. Fix it.
 
 Kiro reads the existing code, understands the issue, and fixes it. This is the conversational loop of Vibe mode — describe, build, iterate.
 
-![Vibe Spec](../Images\issue.png)
-![Vibe Spec](../Images\solved_t.png)
-![Vibe Spec](../Images\solved.png)
+![Vibe Spec](../Images/issue.png)
+![Vibe Spec](../Images/solved_t.png)
+![Vibe Spec](../Images/solved.png)
 
 ---
 
